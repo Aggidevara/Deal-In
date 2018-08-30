@@ -1,0 +1,315 @@
+@media only screen and (max-width: 2652px) {
+    body {
+        background-color:rgb(17, 8, 54);
+      
+    }
+    .hero-image{
+        background:url('../Tote images/tu.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top:0px;
+        width: 30%;
+        text-align: center;
+        overflow: hidden;
+        
+    }
+}
+@media only screen and (max-width: 2560px) {
+    body {
+        background-color: rgb(17, 8, 54);
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    body {
+        background-color: rgb(17, 8, 54);
+    }
+    
+
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(17, 8, 54);
+    }
+    footer .social .subs input{
+         padding-left:3%;
+         margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: rgb(17, 8, 54);
+    }
+}
+@media only screen and (max-width:425px) {
+
+    body {
+        background-color:rgb(17, 8, 54);
+    }  
+    .menu{
+    position:fixed;
+    color:white;
+    width:100%;
+    text-transform: uppercase;
+    }
+    nav ul{
+        position: relative;
+        display: flex;
+        list-style-type: none;
+        padding:2px auto;
+        font-size: 15px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    nav li{
+    margin: 0 20px;
+    }
+    nav ul.submenu{
+    flex-direction: column;
+    }  
+    .aside-container{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+   .aside-container .col{
+    height:50%;
+    border: 10px solid rgb(17, 8, 54);
+    position: relative;
+   }
+   .footer-image{
+    background-image: url("../images/background.jpg");
+    filter: grayscale(50%);
+    
+  }
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 2px 108px 6px -59px;
+    border: none;
+    background: white;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}  
+ 
+input[type=button] {
+    width: 200px;
+    font-size:17px;
+    border-radius:20px;
+    border-color:black;
+    background-color: rgb(17, 8, 54);
+    color: white; 
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form.signup b{
+    text-align: center;
+    font-size:17px;
+    margin-left:-21px;
+} 
+form.signup h1{
+    text-align: center;
+    font-size:17px;
+    margin-left:-50px;
+}
+.footer-terms{
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+font-size: 12px;
+color: white;
+margin-left: 0%;
+flex-direction: column;
+flex-wrap: wrap;
+overflow:hidden;
+}
+.social{
+    margin-left: 0%;
+    align-items: flex-start;
+}
+footer .social{
+    margin-left: -22%;
+}
+footer .social .subs input{
+    margin-left:2%;
+}
+footer.social a{
+    margin-left:-30%;
+}
+
+.social a {
+padding:7px 7px 7px 7px;
+overflow:hidden;    
+font-size:20px;
+}
+}
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+    }
+    footer .social{
+        margin-left: -25%;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+   
+    body {
+        background-color:rgb(17, 8, 54);
+    }  
+   
+footer .social{
+    margin-left: -25%;
+}
+footer .social .subs input{
+    padding-right: -3px;
+    margin-left:0px;
+}
+
+}
+
+body {
+      background:rgb(17, 8, 54);
+      }
+.menu{
+    position:fixed;
+    color:black;
+    width:100%;
+    text-transform: uppercase;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0 -45px;
+}
+nav li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul.submenu{
+    flex-direction: column;
+}
+.hero-image{
+    background:url('../Tote images/tu.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:30px;
+    
+    width: 100%;
+    text-align: center;
+    height: 650px;
+    display: flex;
+    overflow: hidden;
+    justify-content:space-around; 
+}
+.hero-image h1{
+    padding-top: 50%;
+    font-size:50px;
+    color:white;
+    font-family: 'Unica One', cursive;    
+}
+.hero-image p{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+.aside-container{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.aside-container .col{
+    overflow: hidden;
+    width:100%;
+    height:50%;
+    padding-left:60px;
+    padding-top:60px;
+    padding-bottom: 60px;
+    background-color: white;
+    
+}
+.footer-image{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top:500px ;
+    border: 30px;
+    height: 600px;
+    display: flex;
+    color:white;
+    overflow: hidden;
+    justify-content:space-around;
+    filter: grayscale(50%);
+  }
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 2px 108px 6px -59px;
+    border: none;
+    background: white;
+}
+form.signup b{
+    text-align: center;
+    font-size:17px;
+    margin-left:20px;
+}
+form.signup h1{
+    text-align: center;
+    font-size:20px;
+    margin-left:-30px;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+input[type=button] {
+    width: 200px;
+    font-size:17px;
+    border-radius:20px;
+    border-color:black;
+    background-color: rgb(17, 8, 54);
+    color: white;
+    text-align: center;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+input[type=email] {
+    margin-left:30%;
+    width: 20%;
+    border-radius:30px;
+    padding: 6px;
+    background: white;
+}
+.footer-terms{
+    display:flex;
+    justify-content:space-around;
+    overflow:hidden;
+    font-size:13px;
+    color:white;
+    margin-left:0%;
+}
+.social{
+    
+        align-self:center;
+        justify-content: flex-start;
+}
+.social a {
+    padding:7px 7px 7px 7px;
+    overflow:hidden;    
+    font-size:20px;
+ }
+ cite{
+    display: flex;
+    justify-content:center; 
+    color:white;
+}
